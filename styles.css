@@ -59,6 +59,13 @@ video {
 #semmar26 {
     background-image: url('Semmarche_StGeorges/2.jpg');
 }
+#merci {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(6,6,87);
+    text-align: center;
+}
 #repasadh26 {
     background-image:url('Repas_adherents26/2.jpg') ;
 }
@@ -110,7 +117,9 @@ video {
     height: 20em;
     width: 15em;
 }
-  
+#merci {
+    font-size: 1.3em!important;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -137,5 +146,8 @@ video {
 .scene1 {
     height: 15em;
     width: 10em;
+}
+#merci {
+    font-size: 1em!important;
 }
 }
