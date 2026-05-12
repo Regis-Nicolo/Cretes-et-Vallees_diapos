@@ -1,0 +1,141 @@
+body {
+    background-color: rgba(26,97,189,0.4);
+}
+section {
+    margin: 2em;
+    border: 0.3em solid #67944C;
+    background-color:  rgb(163, 198, 81);
+}
+.header {
+    margin-bottom: 1em;
+    text-align: center;
+}
+.header h1 {
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    color: rgb(184, 68, 70);
+    
+}
+.intro {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: rgb(55,99,63);
+}
+.date {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+video {
+    padding-top: 0.5em;
+    height: 28.5em;
+    width: 36em;
+}
+.diapo {
+    margin: 2em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.videosoiree {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+.scene {
+    height: 25em;
+    width: 20em;
+}
+.scene1 {
+    height: 20em;
+    width: 30em;
+}
+#semmar26 {
+    background-image: url('Semmarche_StGeorges/2.jpg');
+}
+#repasadh26 {
+    background-image:url('Repas_adherents26/2.jpg') ;
+}
+#ileauxmoines {
+    background-image: url('Ile aux Moines/2.jpg');
+}
+#semmar25 {
+    background-image: url('Semmarche_Agoncoutainville/2.jpg');
+}
+#cohesion {
+    background-image: url('Journée cohésion/2.jpg');
+}
+#repas {
+    background-image: url('Repas des adhérents/2.jpg');
+}
+#semmar24 {
+    background-image: url('Semaine de marche/2.jpg');
+}
+#resto {
+    background-image: url('Rétro/2.jpg');
+}
+#ileGroix {
+    background-image: url('Ile de Groix/2.jpg');
+}
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2.1em!important;
+}
+    .intro {
+        font-size: 1.4em;
+    }
+    video {
+        height: 23em;
+        width: 27em;
+}
+    
+.videosoiree {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.scene {
+    height: 27em;
+    width: 20em;
+}
+.scene1 {
+    height: 20em;
+    width: 15em;
+}
+  
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.6em!important;
+}
+    .intro {
+        font-size: 1.2em;
+    }
+    video {
+        height: 14em;
+        width:  21em;
+}
+
+.videosoiree {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.scene {
+    height: 18em;
+    width: 11em;
+}
+.scene1 {
+    height: 15em;
+    width: 10em;
+}
+}
