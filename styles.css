@@ -31,7 +31,7 @@ section {
 h2 {
     text-align: center;
 }
-video {
+iframe {
     padding-top: 0.5em;
     height: 28.5em;
     width: 36em;
@@ -99,7 +99,7 @@ video {
     .intro {
         font-size: 1.4em;
     }
-    video {
+    iframe {
         height: 23em;
         width: 27em;
 }
@@ -129,7 +129,7 @@ video {
     .intro {
         font-size: 1.2em;
     }
-    video {
+    iframe {
         height: 14em;
         width:  21em;
 }
