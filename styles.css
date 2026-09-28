@@ -56,6 +56,9 @@ iframe {
     height: 20em;
     width: 30em;
 }
+#Cherrueix {
+    background-image:url('Cherrueix/2.jpg') ;
+}
 #semmar26 {
     background-image: url('Semmarche_StGeorges/2.jpg');
 }
@@ -66,9 +69,7 @@ iframe {
     color: rgb(6,6,87);
     text-align: center;
 }
-#Cherrueix {
-    background-image:url('Repas_adherents26/2.jpg') ;
-}
+
 #repasadh26 {
     background-image:url('Repas_adherents26/2.jpg') ;
 }
